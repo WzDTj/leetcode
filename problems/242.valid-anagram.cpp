@@ -14,11 +14,10 @@ public:
 
     vector<int> vec(26, 0);
 
-    for (int i = 0; i < s.length(); ++i)
+    for (int i = 0; i < s_len; ++i) {
       ++vec[s[i] - 97];
-
-    for (int i = 0; i < t.length(); ++i)
       --vec[t[i] - 97];
+    }
 
     for (int i = 0; i < 26; ++i)
       if (vec[i])
