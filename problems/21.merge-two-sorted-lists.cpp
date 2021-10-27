@@ -1,6 +1,5 @@
 #include "../structures/list_node.cpp"
 #include <algorithm>
-#include <iostream>
 
 using namespace std;
 
