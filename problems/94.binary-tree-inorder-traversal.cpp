@@ -1,4 +1,5 @@
 #include "../structures/tree_node.cpp"
+#include <stack>
 #include <vector>
 
 using namespace std;
@@ -16,6 +17,25 @@ public:
   // 迭代
 
   // vector<int> inorderTraversal(TreeNode *root) {
+  //   vector<int> answer;
+  //
+  //   stack<TreeNode *> stack;
+  //
+  //   TreeNode *current = root;
+  //
+  //   while (current != nullptr || !stack.empty()) {
+  //     while (current != nullptr) {
+  //       stack.push(current);
+  //       current = current->left;
+  //     }
+  //
+  //     current = stack.top();
+  //     stack.pop();
+  //     answer.push_back(current->val);
+  //     current = current->right;
+  //   }
+  //
+  //   return answer;
   // }
 
 private:
