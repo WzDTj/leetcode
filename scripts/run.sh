@@ -1,3 +1,3 @@
 #!/bin/bash
 
-clang++ -std=c++1z ./main.cpp && ./a.out
+clang++ -std=c++17 ./main.cpp && ./a.out
