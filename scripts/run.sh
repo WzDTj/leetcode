@@ -1,3 +1,3 @@
 #!/bin/bash
 
-clang++ -std=c++17 ./main.cpp && ./a.out
+clang++ $(cat compile_flags.txt) ./main.cpp && ./a.out
