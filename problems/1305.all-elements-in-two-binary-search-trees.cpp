@@ -16,7 +16,7 @@ public:
 
     int i1 = 0, i2 = 0;
     while (i1 < n1 || i2 < n2) {
-      if (i1 < n1) {
+      if (i1 == n1) {
         answer.push_back(v2[i2++]);
       } else if (i2 == n2 || v1[i1] < v2[i2]) {
         answer.push_back(v1[i1++]);
