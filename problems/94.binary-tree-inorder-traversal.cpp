@@ -24,14 +24,18 @@ public:
   //   TreeNode *current = root;
   //
   //   while (current != nullptr || !stack.empty()) {
+  //     // 不断访问左节点并入栈
   //     while (current != nullptr) {
   //       stack.push(current);
   //       current = current->left;
   //     }
   //
+  //     // 访问并记录元素
   //     current = stack.top();
   //     stack.pop();
   //     answer.push_back(current->val);
+  //
+  //     // 访问右节点
   //     current = current->right;
   //   }
   //
